@@ -29,7 +29,7 @@ header{
 
 .titlelogin {
     padding: 2rem;
-    background: #c4a1e5;
+    background: #302d3252;
 }
 
 input {
@@ -37,11 +37,44 @@ input {
 }
 
 button {
-    margin: 1rem;
+    margin: 2rem;
 }
 
 .autentic {
-    background-color: #0000005e;
+    background-color: #00000029;
     padding-top: 2rem;
     height: 15rem;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+.bi{
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.bi-lightbulb-off-fill{
+    display: none;
+}
+
+/* Estilizaçao Dark Mode */
+
+.dark,
+.dark header {
+    background-color: #263238;
+    color: #fff;
+}
+
+.dark .bi-lightbulb-fill {
+    display: none;
+}
+
+.dark .bi-lightbulb-off-fill{
+    display: block;
+}
+
+.dark a {
+    color: #fff;
 }
