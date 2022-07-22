@@ -27,7 +27,7 @@ body {
 
 .align {
   align-items: center;
-  display: flex;
+  /*display: flex;*/
   justify-content: center;
 }
 /*
@@ -143,9 +143,10 @@ input[type="password"] {
 
 input[type="submit"] {
       background-image: linear-gradient(160deg, #8ceabb 0%, #378f7b 100%);
-      color: #fff;
+      color: #7e8ba3;
       margin-bottom: 6rem;
       width: 100%;
+      border: none;
 }
 /*
 input{
@@ -168,12 +169,24 @@ input[type="checkbox"]{
 .bi-lightbulb-off-fill{
     display: none;
 }
+/*
+header {
+    margin-bottom: 38rem;
+}*/
 
 /* Tema Dark */
 
 .dark,
 .dark header {
     background-color: #354152;
+}
+
+.dark .bi-lightbulb-off-fill{
+    display: block;
+}
+
+.dark .bi-lightbulb-fill {
+    display: none;
 }
 
 @media (min-width: 320px) and (max-width: 768px){
