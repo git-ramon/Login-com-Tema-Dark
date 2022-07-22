@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  background-color: #354152;
+  background-color: #fff;
   color: #7e8ba3;
   font: 300;
   font-size: 1rem;
@@ -156,6 +156,26 @@ input{
   background-color: transparent;
 }*/
 
+input[type="checkbox"]{
+    display: none;
+}
+
+.bi{
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.bi-lightbulb-off-fill{
+    display: none;
+}
+
+/* Tema Dark */
+
+.dark,
+.dark header {
+    background-color: #354152;
+}
+
 @media (min-width: 320px) and (max-width: 768px){
   .register {
     padding: 1rem 2rem;
@@ -165,3 +185,5 @@ input{
     line-height: 1.5rem;
   }
 }
+
+
